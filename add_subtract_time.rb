@@ -3,7 +3,6 @@ class AddSubtractTime
         arr = start_time.split(':')
         hours = arr[0].to_i
         minutes = arr[1].to_i
-        am_pm = arr[1][-2, 2]
         add_hours = 0
         add_minutes = 0
         if delta_minutes < 60 && delta_minutes > -60 
